@@ -1,8 +1,8 @@
 # Openhab 1.7.1
 # * configuration is injected
 #
-FROM java:openjdk-8-jdk
-MAINTAINER Tom Deckers <tom@ducbase.com>
+FROM nijlunsing/openjdk-8-jdk-armhf
+MAINTAINER Harm Jan Nijlunsing <git@harmjan.dds.nl>
 
 ENV DEBIAN_FRONTEND noninteractive
 
